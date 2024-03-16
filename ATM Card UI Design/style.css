@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    background-color: rgb(114, 109, 109);
+    font-family: 'Poppins', sans-serif;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cointainer {     
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.card {
+    position: absolute;
+    background-color: white;
+    height: 60vh;
+    width: 50vw;
+    padding: 10px;
+    border-radius: 28px;
+    background-image: url("bg.png");
+    background-size: cover;
+    box-shadow: 0 10px 25px black;
+}
+
+.logo {
+    display: flex;
+    justify-content: space-between;
+}
+
+.text {
+    font-weight: 600;
+    font-size: 16px;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.chip {
+    margin: 50px 0px 20px 60px;
+}
+
+.star {
+    font-size: 60px;
+}
+
+.stardiv {
+    padding: 0px 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.date {
+    margin-left: 30px;
+    font-size: 24px;
+}
+
+.visa {
+    position: relative;
+}
+
+.visa img {
+    width: 200px;
+    height: 100px;
+    position: absolute;
+    right: 5px;
+    bottom: -90px;
+}
+.name{
+    position: absolute;
+    font-size: 26px;
+    font-weight: 500;
+    padding-left: 10px;
+    bottom: 10px;
+}
