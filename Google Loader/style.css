@@ -11,6 +11,7 @@
     background: #eef5fe;
   }
   .wrapper {
+    
     display: flex;
     column-gap: 10px;
   }
